@@ -14,7 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('home');
+=======
+    return view('home');
+>>>>>>> 1bf933abe2c0648fba94d342cc009202fcaf5df6
 });
 
 Route::middleware([
